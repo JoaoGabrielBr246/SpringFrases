@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(180.61deg, #1a1a1a 25.16%, #04254f 80%, #10375c 100%);
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cabecalho {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+}
+
+.cabecalho__logo img {
+  max-width: 150px;
+  height: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5vh;
+  margin-bottom: 1em;
+}
+
+.ficha {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  text-align: center;
+  width: 100%;
+}
+
+.ficha img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ficha-descricao {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.btn-sortear {
+  border: none;
+  outline: none;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  background-color: #0077b6;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-sortear:hover {
+  background-color: #005689;
+}
+
+@media screen and (max-width: 1200px) {
+  .cabecalho__logo img {
+    max-width: 120px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .ficha {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ficha img {
+    width: 50%;
+  }
+
+  .title {
+    font-size: 2vh;
+  }
+
+  .btn-sortear {
+    font-size: 1rem;
+  }
+}
