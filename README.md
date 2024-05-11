@@ -1,2 +1,2 @@
 # SpringFrases
-Exercício proposto pela Alura em conjunto com o Projeto ONE T6 da Oracle, onde o objetivo é criar uma API REST que mostra frases em um banco de dados.
+Exercício proposto pela Alura em conjunto com o Projeto ONE T6 da Oracle, onde o objetivo é criar uma API REST que mostra frases em um banco de dados. Foi utilizado um front-end fornecido pela equipe da Alura, com algumas modificações no CSS por minha parte, e feito um back-end com Spring e Java, utilizando também Postgres como banco de dados. No site tem frases de personagens famosos, podendo ser mostrado aleatoriamente a cada clique.
